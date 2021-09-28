@@ -1,0 +1,20 @@
+.headerContainer {
+    color: #E0D3DE;
+    text-align: center;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0
+}
+
+.nameHeader {
+    font-family: 'Arizonia', cursive;
+    font-size: 4.5em;
+}
+
+.descHeader {
+    font-size: 1.5em;
+    font-family: 'Barlow', sans-serif;
+}
+
