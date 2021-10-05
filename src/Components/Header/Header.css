@@ -9,7 +9,7 @@
 }
 
 .nameHeader {
-    font-family: 'Arizonia', cursive;
+    font-family: 'Explora', cursive;
     font-size: 4.5em;
 }
 
@@ -17,4 +17,11 @@
     font-size: 1.5em;
     font-family: 'Barlow', sans-serif;
 }
+
+.iconHeader {
+    display: flex;
+    color: hsla(216, 27%, 55%, 0.486);
+    margin-left: 38em;  
+}
+
 

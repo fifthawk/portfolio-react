@@ -1,38 +1,38 @@
-.projectOneContainer {
+.projectThreeContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   color: rgb(13, 28, 48);
-  background: hsla(212, 70%, 26%, 0.822);
+  background: hsla(206, 64%, 74%, 0.726);
   border-radius: 2em;
   text-align: center;
   margin-bottom: 2em;
 }
 
-.projectOneTitle {
+.projectThreeTitle {
   font-size: 5em;
   text-align: center;
-  color: hsla(212, 70%, 26%, 0.822);
+  color: hsla(309, 17%, 85%, 0.911);
   font-family: "Barlow", sans-serif;
-  background: hsla(237, 18%, 75%, 0.836);
+  background: hsla(211, 47%, 57%, 0.671);
   padding: 0.25em;
   border-radius: 0.25em;
 }
 
-.projectOneImage_two {
+.projectThreeImage_two {
   z-index: 1;
   width: 70%;
 }
 
-.projectOneImage {
-  margin-top: -55%;
+.projectThreeImage {
+  margin-top: -52%;
   z-index: 2;
-  margin-left: 60%;
+  margin-left: 55%;
   width: 30%;
 }
 
-.projectOneDesc {
+.projectThreeDesc {
   color: white;
   word-break: normal;
   padding: 2em;
@@ -40,21 +40,28 @@
   font-family: "Barlow", sans-serif;
 }
 
+.icon:hover {
+  color: white;
+}
+
+.siteLink {
+  color:hsla(309, 17%, 85%, 0.911)
+}
+
 @media only screen and (max-width: 600px) {
-  .projectOneImage {
+  .projectThreeImage {
     margin-top: -8em;
     margin-left: 70%;
     height: 7.75em;
     width: 4.75em;
   }
 
-  .projectOneTitle {
+  .projectThreeTitle {
     font-size: 3em;
   }
 
-  .projectOneDesc {
-    word-break: keep-all;
+  .projectThreeDesc {
+    padding: 1em;
     font-size: 1.45em;
-    padding: 0.45em;
   }
 }
