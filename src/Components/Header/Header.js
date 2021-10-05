@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import "animate.css";
-import * as Icon from "react-bootstrap-icons";
+
 
 const Header = () => {
   return (
