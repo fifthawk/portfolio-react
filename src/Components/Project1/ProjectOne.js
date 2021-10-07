@@ -28,7 +28,7 @@ const ProjectOne = () => {
             <p>Basic movie search app using React and TheMovieDB </p>
             <a
               className="siteLink"
-              href="https://vigorous-ardinghelli-36d706.netlify.app/"
+              href="https://awesome-hoover-d4b14a.netlify.app/"
             >
               <Icon.Film className="icon" />
             </a>
